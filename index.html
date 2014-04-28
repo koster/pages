@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>some shit</title>
-		<script type='text/javascript' src='https://dl.dropboxusercontent.com/s/a8n2gfbno1ymfz1/jquery.min.js'></script>
+		<title>Life Beneath The Surface - xk@ld29</title>
+		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
 		<script type="text/javascript">
 		<!--
-		var unityObjectUrl = "https://dl.dropboxusercontent.com/s/qxnnnsa8w74680o/UnityObject2.js";
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
 		if (document.location.protocol == 'https:')
 			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
 		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
@@ -15,8 +15,8 @@
 		<script type="text/javascript">
 		<!--
 			var config = {
-				width: 1200, 
-				height: 450,
+				width: 800, 
+				height: 350,
 				params: { enableDebugging:"0" }
 				
 			};
@@ -56,7 +56,7 @@
 						break;
 					}
 				});
-				u.initPlugin(jQuery("#unityPlayer")[0], "https://dl.dropboxusercontent.com/u/12249985/build.unity3d");
+				u.initPlugin(jQuery("#unityPlayer")[0], "https://dl.dropboxusercontent.com/s/7ocktpqzsl3mopg/web.unity3d");
 			});
 		-->
 		</script>
@@ -64,7 +64,7 @@
 		<!--
 		body {
 			font-family: Helvetica, Verdana, Arial, sans-serif;
-			background-color: white;
+			background-color: black;
 			color: black;
 			text-align: center;
 		}
@@ -85,7 +85,8 @@
 		}
 		div.content {
 			margin: auto;
-			width: 1200px;
+			width: 800px;
+			padding-top: 50px;
 		}
 		div.broken,
 		div.missing {
@@ -109,14 +110,16 @@
 		}
 		div#unityPlayer {
 			cursor: default;
-			height: 450px;
-			width: 1200px;
+			height: 350px;
+			width: 800px;
 		}
 		-->
 		</style>
 	</head>
 	<body>
-		<div class="content">
+		<div class="content">	
+			<center><img style="margin-bottom:30px" src="https://dl.dropboxusercontent.com/s/ib507l2e1w3dk2q/writing.png"></img></center>
+
 			<div id="unityPlayer">
 				<div class="missing">
 					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
@@ -130,5 +133,7 @@
 				</div>
 			</div>
 		</div>
+
+		<center><img style="margin-top:50px" src="https://dl.dropboxusercontent.com/s/ypepvi92iduis2q/ld29.png"></img></center>
 	</body>
 </html>
